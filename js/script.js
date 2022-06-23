@@ -12,6 +12,8 @@ function newElementSquare (){
 const play = document.getElementById("button");
 
 play.addEventListener('click', function(){
+    container.innerHTML = null
+
     for (let i = 1; i <= 100; i++){
         let newSquare = newElementSquare ();
     
