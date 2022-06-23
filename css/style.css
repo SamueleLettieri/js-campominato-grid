@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+main{
+    padding: 40px;
+}
+
+.box{
+    width: 900px;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% ;
+    background-color: black;
+}
+
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+.active{
+    background-color: aqua;
+    color: black;
+}
